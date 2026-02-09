@@ -1,0 +1,7 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/Cirinebmr/examen-dvc.s3
+    auth = basic
+    user = Cirinebmr
+    ask_password = true
