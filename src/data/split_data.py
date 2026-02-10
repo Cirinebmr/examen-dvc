@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from pathlib import Path
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', default='data/raw/raw.csv')
+parser.add_argument('--input', default='data/raw_data/raw.csv')
 parser.add_argument('--test-size', type=float, default=0.2)
 args = parser.parse_args()
 
